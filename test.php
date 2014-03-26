@@ -13,5 +13,3 @@ if(true) $t->send('event', array(
   'eventCategory' => 'test events',
   'eventLabel' => '(test)'
 ));
-
-?>
