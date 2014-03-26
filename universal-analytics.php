@@ -1,4 +1,7 @@
 <?php
+
+namespace Google\UniversalAnalyticsPhpBundle;
+
 ###############################################################################
 # Universal Analytics for PHP 
 # Copyright (c) 2013, Analytics Pros
