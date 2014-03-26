@@ -1,5 +1,18 @@
 # Universal Analytics for PHP 
 
+Symfony 2 Bundle
+================
+
+Configuration
+-------------
+
+```yaml
+# app/config/config.yml
+universal_analytics_php:
+	googleAnalyticsId: XX-YYYYYYYY-Z # Required
+```
+Original lib
+============
 This library provides a PHP interface for the Universal Analytics Measurement Protocol, with an interface modeled (loosely) after Google's `analytics.js`.
 Future releases will support an interface similar to `ga.js`, for legacy implementations which already integrate our [legacy library](https://github.com/analytics-pros/google-analytics-php-legacy).
 

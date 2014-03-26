@@ -1,0 +1,6 @@
+parameters:
+
+services:
+    universal_analytics_php.services.universalAnalyticsPhp:
+        class: Google\UniversalAnalyticsPhpBundle\Services\UniversalAnalyticsPhpService
+        arguments: [%universal_analytics_php.googleAnalyticsId%]

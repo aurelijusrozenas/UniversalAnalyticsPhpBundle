@@ -1,0 +1,9 @@
+{
+    "name": "universal-analytics-php-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony Google Universal analytics php bundle",
+    "keywords": ["google universal analytics php bundle"],
+    "autoload": {
+        "psr-0": { "Google\\UniversalAnalyticsPhpBundle": "" }
+    }
+}
