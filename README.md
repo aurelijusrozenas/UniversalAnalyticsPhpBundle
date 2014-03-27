@@ -9,8 +9,18 @@ Configuration
 ```yaml
 # app/config/config.yml
 universal_analytics_php:
-	googleAnalyticsId: XX-YYYYYYYY-Z # Required
+    googleAnalyticsId: XX-YYYYYYYY-Z # Required
 ```
+
+Usage
+-----
+Get tracker in controller via service:
+```php
+/** @var Tracker $tracker */
+$tracker = $this->get('universal_analytics_php.services.universalAnalyticsPhp')
+				->createTracker($gaClientId);
+```
+
 Original lib
 ============
 This library provides a PHP interface for the Universal Analytics Measurement Protocol, with an interface modeled (loosely) after Google's `analytics.js`.
